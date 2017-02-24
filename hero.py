@@ -5,8 +5,8 @@ class Hero(Sprite):
 	# init class porperties
 	def __init__(self, screen, settings):
 		super(Hero,self).__init__()
-		self.image = pygame.image.load('mr-base.png')
-		self.image = pygame.transform.scale(self.image,(50,50))
+		self.image = pygame.image.load('trump.png')
+		self.image = pygame.transform.scale(self.image,(70,85))
 		self.screen = screen
 		# print self.image.get_rect()
 		self.rect = self.image.get_rect()
